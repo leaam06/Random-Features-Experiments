@@ -1,20 +1,21 @@
 # Random Features Experiments
 
-Ce dépôt contient un notebook explorant les méthodes proposées dans l'article *Random Features for Large-Scale Kernel Machines*.
+This repository contains a notebook exploring the methods proposed in the paper *Random Features for Large-Scale Kernel Machines*.
 
 ## Description
 
-Les machines à noyau comme les SVM sont puissantes mais coûteuses en calcul. Cet article propose une approche basée sur des projections aléatoires pour approximer les noyaux tout en accélérant l'apprentissage.
+Kernel machines, such as SVMs, are powerful but computationally expensive. This paper introduces an approach based on random projections to approximate kernels while accelerating training.
 
-Ce projet met en œuvre et teste ces méthodes :
-- **Fourier Features** : Utilisation des sinus et cosinus pour approximer les noyaux RBF.
-- **Random Binning Features** : Discrétisation aléatoire de l'espace pour approximer des noyaux dépendant de la distance L1.
+This project implements and tests these methods:
 
-## Contenu
+- **Fourier Features** : Uses sine and cosine functions to approximate RBF kernels.
+- **Random Binning Features** : Randomly discretizes the space to approximate kernels based on the L1 distance.
 
-- `notebook.ipynb` : Expérimentations sur les méthodes de features aléatoires.
-- `data/` : Éventuels fichiers de données.
-- `results/` : Résultats des tests et visualisations.
+## Contents
+
+- `notebook.ipynb` : Experiments on random feature methods.
+- `data/` : Contains potential data files.
+- `results/` : Stores test results and visualizations.
 
 ## Installation
 
